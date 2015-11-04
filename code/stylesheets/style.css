@@ -50,8 +50,8 @@ header p {
   float: left;
   border: 0px;
   background: rgba(255, 255, 255, 0.5);
-  border-top-left-radius:4px;
-  border-bottom-left-radius:4px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
 }
 .search button {
   border: 0px;
@@ -60,12 +60,13 @@ header p {
   background: rgba(0, 255, 209, 0.5);
   float: left;
   color: white;
-  border-top-right-radius:4px;
-  border-bottom-right-radius:4px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
 }
 .main-info {
   text-align: center;
   background-color: #F4F3F1;
+  height: 570px;
 }
 .total {
   background: #F4F3F1;
@@ -100,10 +101,41 @@ header p {
 .main-info .title {
   font-weight: bold;
 }
-/*.main-info li {
-  height: 135px;
-  width: 225px;
-  line-height: 50px;
+.line {
+  height: 1px;
+  width: 70%;
+  background-color: #E5E4E3;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+.main-info ul {
+  margin: 0 auto;
+  padding: 0;
+}
+.main-info li {
   display: inline-block;
-  border-right: 1px solid #E5E4E3;
-}*/
+}
+.detail {
+  width: 320px;
+  height: 290px;
+  margin: 0 15px;
+}
+.serial-number {
+  position: relative;
+  background: #ffffff;
+  border: 1px solid #E5E4E3;
+  font-weight: bold;
+  top: -18px;
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  line-height: 35px;
+  margin: 0 auto;
+}
+.detail-title {
+  font-weight: bold;
+}
+.detail-info {
+  font-size: 14px;
+  padding: 17px 30px;
+}
