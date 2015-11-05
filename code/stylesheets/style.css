@@ -3,7 +3,7 @@ body {
   margin: 0px;
   width:100%;
   min-width:1100px;
-  width:expression_r(document.body.clientWidth < 1100 ? "1100px": "auto" );
+  width:expression_r(document.body.clientWidth < 1100 ? "1100px": "auto");
 }
 header {
   background: url(../images/sunset-resized.jpg) no-repeat center top;
